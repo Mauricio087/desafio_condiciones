@@ -33,12 +33,22 @@ h2{
 }
 .text_mensaje{
     font-size: small;
-    text-shadow:
-    0 0 10px rgba(211, 210, 210, 0.8),
-    0 0 20px rgba(248, 246, 246, 0.6),
-    0 0 30px rgba(68, 62, 62, 0.4),
-    0 0 40px rgba(22, 17, 17, 0.2);
 }
 .boton_box{
     padding-bottom: 7px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn{
+    padding: 10px 15px;
+    background-color: rgb(11, 156, 192);
+    border-top-left-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
 }

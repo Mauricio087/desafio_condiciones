@@ -11,11 +11,7 @@ body{
     justify-content: center;
 }
 
-.container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
 
 .fondo{
     background-image: url(../css/img2/fondo.jfif);
@@ -72,6 +68,16 @@ body{
     font-size: large;
 }
 .btnv{
-    color: rgb(2, 190, 80);
-    border-color: white;
+    color: rgb(12, 12, 12);
+    padding: 10px 15px;
+    background-color: rgb(255, 217, 0);
+    border-top-left-radius: 20px;
+    cursor: pointer;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
 }
